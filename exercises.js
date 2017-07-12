@@ -69,10 +69,23 @@ leaders(presidents);
 Declare a variable named `stringOfNumbers` and assign its value to an empty string. 
 
 Write a for-loop that concatenates a Number value into that string on each iteration, starting at `10` and continuing up to and including `20`. Console.log your result. It should read "1011121314151617181920"*/
-var stringOfNumbers = "";
-for (var i = 1; i<stringOfNumbers.length; i++){
-	console.log(stringOfNumbers[i]);
+/*var stringOfNumbers = "";
+var concat = "" + 1;
+
+for (var i = 1; i<concat.length; i++){
+function concatenate(stringOfNumbers, concat){
+	return stringOfNumbers + 11 + [i] 
 }
+}
+concatenate(stringOfNumbers);
+console.log(concat);*/
+
+var stringOfNumbers = "";
+for (var i = 10; i<21; i++){
+	stringOfNumbers += i;
+}
+	console.log(stringOfNumbers);
+
 
 
 /* 5) Even Stevens
