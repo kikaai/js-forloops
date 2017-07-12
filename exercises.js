@@ -39,6 +39,7 @@ The value at 2 is "Jefferson.
 The value at 3 is "Madison.
 The value at 4 is Monroe.
 
+
 Next, console.log the length of the array.
 
 3-A) Create a function named leaders which will take in a parameter: `person`.
@@ -48,7 +49,21 @@ This function will iterate through the person parameter and console.log the foll
 
 "President person was a great leader."
 */
+var presidents = ["Washington", "Adams", "Jefferson", "Madison", "Monroe"];
 
+for (var i =0; i<presidents.length; i++){
+	console.log( "The value at "+ i + " is " + presidents[i]);
+}
+
+console.log(presidents.length);
+	
+	function leaders(person){
+  for(var i = 0; i<person.length; i++){
+    console.log("President " + person[i] + " was a great leader.");
+  }
+}
+
+leaders(presidents);
 
 /* 4) Line Number
 Declare a variable named `stringOfNumbers` and assign its value to an empty string. 
@@ -143,7 +158,7 @@ Write a function named `generateArrayOfStrings` which takes a single argument `s
 Write a function that will capitalize the first letter in each word in the phrase below. The function will console.log the message: "I've Lived A Life That's Full. I've Traveled Each And Every Highway. But More, Much More Than This. I Did It My Way."  
 */
 
-var myWay = "i've lived a life that's full, i've traveled each and every highway. but more, much more than this. i did it my way.";
+//var myWay = "i've lived a life that's full, i've traveled each and every highway. but more, much more than this. i did it my way.";
 
 
 
