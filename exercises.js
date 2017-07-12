@@ -94,6 +94,14 @@ Declare a variable named `evenNumArr` and assign its value to an empty array.
 Write a for-loop that will push even numbers to the `evenNumArr` array. We want to push 50 even even numbers starting from 0.
 Console.log your results.
 */
+var evenNumArr = [];
+
+for (var i = 0; i<100; i++){
+	if(i % 2 ===0){
+	evenNumArr.push(i);
+	}
+}
+	console.log(evenNumArr);
 
 
 /* 6) Up the Odds
@@ -102,7 +110,15 @@ Declare a variable named `oddSum` and assign it to the Number value 0.
 Write a for-loop that will sum up odd numbers to the `oddSum` variable. We want to add 50 odd numbers starting from 1.
 Console.log your results.
 */
-  
+  var oddSum = 0;
+  for (var i = 1; i< 100; i++){
+  	if(i % 2 ===1){
+  		oddSum.push(i);
+  	}
+  }
+  console.log(oddSum);
+
+
 
 /* 7) Oops There It is
 Declare a variable named `oopsArray` and assign its to the following array: `[ 'turn' , , 'down' , , 'for' , , 'what' ]`.
@@ -123,6 +139,8 @@ down
 nope
 turn
 */
+
+
 
 
 /* 9) Siesta Time
@@ -159,7 +177,6 @@ Write a function that will iterate through the string value and return the longe
 */
 
 
-
 /* 12) Puppet Master
 Declare a variable named `miscStorage` set it's value to be: `[ [], 'Carrots', 9, 'Beets', {}, {name: "Todd B."}, 'Mush' ]`
 Write a function named `generateArrayOfStrings` which takes a single argument `storage`. This function will return a new Array with only `String` values inside of it.
@@ -171,11 +188,10 @@ Write a function named `generateArrayOfStrings` which takes a single argument `s
 
 
 
-/* 13) All Grown Up 
-Write a function that will capitalize the first letter in each word in the phrase below. The function will console.log the message: "I've Lived A Life That's Full. I've Traveled Each And Every Highway. But More, Much More Than This. I Did It My Way."  
-*/
 
-//var myWay = "i've lived a life that's full, i've traveled each and every highway. but more, much more than this. i did it my way.";
+/* 13) All Grown Up 
+Write a function that will capitalize the first letter in each word in the phrase below. The function will console.log the message: "I've Lived A Life That's Full. I've Traveled Each and Every Highway. But More, Much More Than This. I Did It My Way."  
+*/
 
 
 
@@ -189,4 +205,3 @@ The function will iterate through the `cohort` argument and check each student's
 If the `enrolled` property is set to `true` then change that student's `graduated` property to `true`. Otherwise, if `enrolled` is set to `false` then change `enrolled` to `true` leaving `graduated` alone and unchanged.
 Console.log your result.
 */
-
