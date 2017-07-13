@@ -172,6 +172,21 @@ Inside of this function write a for-loop that will iterate through the `napSched
 */
 
 
+var napSchedule = [false, false, true, false, true, true];
+
+function nap(schedule){
+  for(var i = 0; i<schedule.length; i++){
+   if(schedule[i] === true){
+    console.log("ZzZzZzZz");
+   }else{
+    console.log("Gotta get coding!");
+   } 
+  }
+}
+
+nap(napSchedule);
+
+
 
 /* 10) Copy Pasta
 Declare a variable named `valuesArray` and assign its value to be an array: `[99, 66, 829, 1941, 8, 76]`. 
@@ -184,7 +199,11 @@ Write a function named `copyArray` which takes two arguments: `originArray` and 
 
 Inside of this function write a for-loop that will iterate through the contents of the `originArray` and pushes each element of that array into `destinationArray`. Console.log your result.
 */
-
+var valuesArray = [99, 66, 829, 1941, 8, 76];
+var copyValuesArray = [];
+function copyArray (originArray, destinationArray){
+  for (var i = 0; i<copyArray; )
+}
 
 
 /*Final Boss*/
