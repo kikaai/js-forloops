@@ -142,22 +142,10 @@ console.log(oopsArray);
 
 
 
-/*var beer = ["longboard", "redhook", "heiny", "IPA"];
 
-console.log(beer[0]);
-console.log(beer.length);
 
-for(var i = 0; i<beer.length; i++){
-  console.log("I love to drink " + beer[i]);
-}
 
-var sum = 0;
-
-for(var i = 0; i<6; i++){
-  sum += i;
-}
-
-console.log(sum);*/
+//
 /* 8) Is It There Oops
 Using a for-loop, iterate through the Array stored at `oopsArray` backwards. Console.log your result. It should look like this:
 
@@ -170,9 +158,9 @@ nope
 turn
 */
 
-
-
-
+for(var i = oopsArray.length - 1; i>=0; i--){
+  console.log(oopsArray[i]);
+}
 /* 9) Siesta Time
 Declare a variable named `napSchedule` and assign its value to the following array: `[false, false, true, false, true, true]`
 
