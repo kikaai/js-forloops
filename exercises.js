@@ -130,6 +130,34 @@ Note that every odd index value in `oopsArray` is currently `undefined`. Using a
 */
 
 
+var oopsArray = [ 'turn' , , 'down' , , 'for' , , 'what' ];
+for(var i = 0; i<oopsArray.length; i++){
+  console.log(oopsArray[i]);
+  if(i%2 ===1){
+    oopsArray[i] = "nope";
+  }
+}
+
+console.log(oopsArray);
+
+
+
+/*var beer = ["longboard", "redhook", "heiny", "IPA"];
+
+console.log(beer[0]);
+console.log(beer.length);
+
+for(var i = 0; i<beer.length; i++){
+  console.log("I love to drink " + beer[i]);
+}
+
+var sum = 0;
+
+for(var i = 0; i<6; i++){
+  sum += i;
+}
+
+console.log(sum);*/
 /* 8) Is It There Oops
 Using a for-loop, iterate through the Array stored at `oopsArray` backwards. Console.log your result. It should look like this:
 
