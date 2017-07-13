@@ -202,9 +202,14 @@ Inside of this function write a for-loop that will iterate through the contents 
 var valuesArray = [99, 66, 829, 1941, 8, 76];
 var copyValuesArray = [];
 function copyArray (originArray, destinationArray){
-  for (var i = 0; i<copyArray; )
+  for (var i = 0; i<originArray.length; i++){
+//console.log(originArray[i]);
+destinationArray.push(originArray[i])
+  }
+  return destinationArray;
 }
-
+copyArray(valuesArray, copyValuesArray);
+console.log(copyValuesArray);
 
 /*Final Boss*/
 
